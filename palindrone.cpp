@@ -23,7 +23,7 @@ int main()
   for(int i=0; i<81; i++) {
     if(input[i] !=' ' && input[i] !=',' && input[i] !='!'
        && input[i] !=':' && input[i] !=';' && input[i] !='?'
-       && input[i] !='"') {
+       && input[i] !='"' &&input[i] !='.') {
       cleanInput[j] = input[i];
       j++;
     }
@@ -52,5 +52,4 @@ int main()
       
   
 }
-# Palindrone
-# Palindrone
+
